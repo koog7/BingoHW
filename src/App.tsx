@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-        <button className={'button'}>New numbers</button>
+        <a className="codepen-button"><span>Сгенерировать числа</span></a>
     </>
   )
 }

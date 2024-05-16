@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import '../App.css'
 const RandomNumberLink: React.FC = () => {
-    const [numArray, setNumArray] = useState<number[]>([]);
+    const initialNumbers = [5, 11, 16, 23, 32];
+    const [numArray, setNumArray] = useState(initialNumbers);
+
     const generateRandomNumber = () => {
         const newNumArray: number[] = [];
         while (newNumArray.length < 5) {
